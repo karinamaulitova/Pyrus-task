@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__first-column-container {
+  max-width: 660px;
+}
+
+.main__second-column-container {
+  max-width: 300px;
+}
+
+.main__description:not(:last-of-type) {
+  margin-bottom: 40px;
+}
+
+.main__form {
+  margin-top: 33px;
+}

@@ -1,0 +1,20 @@
+.page {
+  padding: 84px 100px 88px;
+  margin: 0 auto;
+
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #000000;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page__header {
+  margin-bottom: 48px;
+}

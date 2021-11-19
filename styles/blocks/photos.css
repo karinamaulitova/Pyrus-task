@@ -1,0 +1,23 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+.photos__heading {
+  margin: 0 0 0 16px;
+}
+
+.photos__list {
+  padding: 0;
+}
+
+.photos__item {
+  list-style: none;
+}
+
+.photos__item:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.photos__image {
+  width: 300px;
+}

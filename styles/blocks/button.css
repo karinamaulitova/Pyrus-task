@@ -1,0 +1,21 @@
+.button {
+  background: #0078bb;
+  border-radius: 4px;
+  font-family: 'PT Sans';
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+
+  border: none;
+
+  padding: 15px 22px;
+}
+
+.button__svg {
+  width: 18px;
+  height: 16px;
+}
+
+.button__svg path {
+  fill: #ffffff;
+}

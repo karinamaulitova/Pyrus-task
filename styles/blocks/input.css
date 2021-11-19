@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.input__inner::placeholder {
+  color: #808080;
+}
+
+.input__inner {
+  width: 566px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 7px 10px;
+
+  color: #000000;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.input__note {
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+
+  margin: 7px 0 0 94px;
+}

@@ -1,0 +1,16 @@
+.logo {
+  text-decoration: none;
+
+  display: flex;
+  align-items: baseline;
+}
+
+.logo__text {
+  color: #000000;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 83px;
+  margin: 0;
+}
