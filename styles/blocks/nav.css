@@ -1,22 +1,19 @@
 .nav {
   display: flex;
   align-items: center;
+  gap: 25px;
 }
 
 .nav__list {
   display: flex;
   padding: 0;
 
-  margin-right: 25px;
+  gap: 25px;
 }
 
 .nav__item {
   list-style: none;
   cursor: pointer;
-}
-
-.nav__item:not(:last-of-type) {
-  margin-right: 25px;
 }
 
 .nav__link {
@@ -59,20 +56,18 @@
 }
 
 .nav__button:active {
-  background: #0A6EA6;
+  background: #0a6ea6;
   color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 767px) {
   .nav {
     flex-direction: column;
+    gap: 0;
   }
 
   .nav__list {
     margin-right: 0;
-  }
-
-  .nav__item:not(:last-of-type) {
-    margin-right: 20px;
+    gap: 20px;
   }
 }

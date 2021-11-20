@@ -1,14 +1,8 @@
 .form {
   display: flex;
   flex-direction: column;
-}
 
-.form__fieldset:not(:last-of-type) {
-  margin-bottom: 33px;
-}
-
-.form__textarea::placeholder {
-  color: #808080;
+  gap: 33px;
 }
 
 .form__checkbox:not(:last-of-type) {
@@ -20,7 +14,7 @@
 }
 
 .form__button {
-  margin-top: 60px;
+  margin-top: 27px;
   align-self: center;
 }
 
