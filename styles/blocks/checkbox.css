@@ -1,9 +1,14 @@
 .checkbox {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .checkbox__inner {
-  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 0;
+  border: 0;
 }
 
 .checkbox__label {
@@ -32,6 +37,10 @@
 
 .checkbox__label:active::before {
   border: 2px solid #62B9EA;
+}
+
+.checkbox__inner:focus-visible + .checkbox__label::before {
+  border: 2px solid #62b9ea;
 }
 
 .checkbox__inner:checked + .checkbox__label::after {

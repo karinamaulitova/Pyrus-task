@@ -1,0 +1,35 @@
+.grid__container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.grid__column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.grid__column_first {
+  max-width: 660px;
+}
+
+.grid__column_second {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .grid__container {
+    max-width: 335px;
+  }
+
+  .grid__row {
+    flex-direction: column;
+  }
+}

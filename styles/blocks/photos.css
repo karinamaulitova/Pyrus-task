@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 .photos__heading {
-  margin: 0 0 0 16px;
+  margin: 0 0 16px 0;
 }
 
 .photos__list {

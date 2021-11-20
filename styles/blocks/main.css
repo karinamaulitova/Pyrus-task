@@ -1,34 +1,7 @@
-.main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.main__first-column-container {
-  max-width: 660px;
-  display: flex;
-  flex-direction: column;
-}
-
-.main__second-column-container {
-  max-width: 300px;
-  display: flex;
-  flex-direction: column;
-}
-
 .main__description:not(:last-of-type) {
   margin-bottom: 40px;
 }
 
 .main__form {
   margin-top: 33px;
-}
-
-@media screen and (max-width: 767px) {
-  .main {
-    flex-direction: column;
-  }
-
-  .main__first-column-container {
-    margin-bottom: 60px;
-  }
 }

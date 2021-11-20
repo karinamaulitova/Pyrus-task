@@ -1,6 +1,9 @@
 .page {
-  padding: 84px 100px 88px;
-  margin: 0 auto;
+  padding-top: 84px; 
+  padding-bottom: 28px;
+
+  padding-left: 20px;
+  padding-right: 20px;
 
   font-family: 'PT Sans', 'Arial', sans-serif;
   font-style: normal;
@@ -21,7 +24,8 @@
 
 @media screen and (max-width: 767px) {
   .page {
-    padding: 35px 20px 110px;
+    padding-top: 35px;
+    padding-bottom: 50px;
   }
 
   .page__header {

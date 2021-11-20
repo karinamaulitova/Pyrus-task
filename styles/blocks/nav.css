@@ -23,7 +23,7 @@
   text-decoration: underline;
   color: #0078bb;
 
-  transition: all 0.6s ease;
+  transition: all 0.2s ease;
 }
 
 .nav__link:hover,
@@ -48,7 +48,7 @@
   font-size: 16px;
   line-height: 21px;
 
-  transition: all 0.6s ease;
+  transition: all 0.2s ease;
 
   cursor: pointer;
 }
