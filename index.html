@@ -26,10 +26,10 @@
         <nav class="header__nav nav">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a class="nav__link">Забрать кота себе</a>
+                    <a class="nav__link" href="#">Забрать кота себе</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link">Задонатить на корм</a>
+                    <a class="nav__link" href="#">Задонатить на корм</a>
                 </li>
             </ul>
             <button type="button" class="nav__button">Войти</button>
@@ -51,12 +51,12 @@
             </section>
             <form class="main__form form" id="interaction" name="interaction" action="#" method="POST">
                 <h2 class="visually-hidden">Форма для общения с котами</h2>
-                <fieldset class="form__fieldset" name="message" form="interaction">
-                    <legend class="form__fieldset-heading h3">Сообщение</legend>
-                    <textarea class="form__textarea" name="message" placeholder="Что-нибудь хорошее"></textarea>
+                <fieldset class="form__fieldset fieldset" name="message" form="interaction">
+                    <legend class="fieldset__heading h3">Сообщение</legend>
+                    <textarea class="form__textarea textarea" name="message" placeholder="Что-нибудь хорошее"></textarea>
                 </fieldset>
-                <fieldset class="form__fieldset" name="options" form="interaction">
-                    <legend class="form__fieldset-heading h3">Дополнительные опции</legend>
+                <fieldset class="form__fieldset fieldset" name="options" form="interaction">
+                    <legend class="fieldset__heading h3">Дополнительные опции</legend>
                     <div class="form__checkbox checkbox">
                         <input class="checkbox__inner" type="checkbox" id="touch" name="option" value="touch">
                         <label class="checkbox__label" for="touch">Сделать пуньк в нос</label>
@@ -66,8 +66,8 @@
                         <label class="checkbox__label" for="feed">Угостить вкусняшкой</label>
                     </div>
                 </fieldset>
-                <fieldset class="form__fieldset" name="contacts" form="interaction">
-                    <legend class="form__fieldset-heading h3">Контакты для связи</legend>
+                <fieldset class="form__fieldset fieldset" name="contacts" form="interaction">
+                    <legend class="fieldset__heading h3">Контакты для связи</legend>
                     <div class="form__input input">
                         <label class="input__label" for="touch">Ваше имя</label>
                         <input class="input__inner" type="text" id="name" name="name">
@@ -79,7 +79,7 @@
                         <span class="input__note">Мы вышлем вам фото довольного кошачьего лица</span>
                     </div>
                 </fieldset>
-                <button type="button" class="form__button button">
+                <button type="submit" class="form__button button">
                     <svg class="button__svg" width="48" height="43" viewBox="0 0 48 43" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path

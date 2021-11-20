@@ -9,6 +9,24 @@
   border: none;
 
   padding: 15px 22px;
+
+  cursor: pointer;
+
+  transition: all 0.6s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #62b9ea;
+}
+
+.button:active {
+  background: #0A6EA6;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button:active .button__svg path {
+  fill: rgba(255, 255, 255, 0.6);
 }
 
 .button__svg {
@@ -18,4 +36,6 @@
 
 .button__svg path {
   fill: #ffffff;
+
+  transition: all 0.6s ease;
 }

@@ -7,7 +7,9 @@
 @import url("./blocks/main.css");
 @import url("./blocks/description.css");
 @import url("./blocks/form.css");
+@import url("./blocks/fieldset.css");
 @import url("./blocks/h3.css");
+@import url("./blocks/textarea.css");
 @import url("./blocks/checkbox.css");
 @import url("./blocks/input.css");
 @import url("./blocks/button.css");

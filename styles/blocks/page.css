@@ -18,3 +18,13 @@
 .page__header {
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 767px) {
+  .page {
+    padding: 35px 20px 110px;
+  }
+
+  .page__header {
+    margin-bottom: 60px;
+  }
+}

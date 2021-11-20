@@ -21,10 +21,28 @@
   line-height: 21px;
 }
 
+.input__inner:focus {
+  outline: 2px solid #62b9ea;
+}
+
 .input__note {
   font-size: 14px;
   line-height: 18px;
   color: #808080;
 
   margin: 7px 0 0 94px;
+}
+
+@media screen and (max-width: 767px) {
+  .input {
+    flex-direction: column;
+  }
+
+  .input__inner {
+    width: 100%;
+  }
+
+  .input__note {
+    margin: 7px 0 0;
+  }
 }

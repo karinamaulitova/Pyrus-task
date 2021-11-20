@@ -14,3 +14,26 @@
   line-height: 83px;
   margin: 0;
 }
+
+.logo__text,
+.logo__image path{
+  transition: all 0.6s ease;
+}
+
+.logo:hover .logo__text,
+.logo:focus .logo__text {
+  color: #62b9ea;
+}
+
+.logo:hover .logo__image path,
+.logo:focus .logo__image path {
+  fill: #62b9ea;
+}
+
+.logo:active .logo__text {
+  color: #0A6EA6;
+}
+
+.logo:active .logo__image path {
+  fill: #0A6EA6;
+}
