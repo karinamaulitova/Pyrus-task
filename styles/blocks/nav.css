@@ -16,50 +16,6 @@
   cursor: pointer;
 }
 
-.nav__link {
-  text-decoration: underline;
-  color: #0078bb;
-
-  transition: all 0.2s ease;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-  text-decoration: none;
-  color: #62b9ea;
-}
-
-.nav__link:active {
-  text-decoration: none;
-  color: #0a6ea6;
-}
-
-.nav__button {
-  color: #ffffff;
-  background-color: #0078bb;
-  border-radius: 4px;
-  padding: 5px 30px;
-  border: none;
-
-  font-family: 'PT Sans';
-  font-size: 16px;
-  line-height: 21px;
-
-  transition: all 0.2s ease;
-
-  cursor: pointer;
-}
-
-.nav__button:hover,
-.nav__button:focus {
-  background: #62b9ea;
-}
-
-.nav__button:active {
-  background: #0a6ea6;
-  color: rgba(255, 255, 255, 0.6);
-}
-
 @media screen and (max-width: 767px) {
   .nav {
     flex-direction: column;

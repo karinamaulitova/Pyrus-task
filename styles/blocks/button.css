@@ -1,14 +1,9 @@
 .button {
   background: #0078bb;
   border-radius: 4px;
-  font-family: 'PT Sans';
-  font-size: 20px;
-  line-height: 26px;
   color: #ffffff;
 
   border: none;
-
-  padding: 15px 22px;
 
   cursor: pointer;
 
@@ -23,6 +18,18 @@
 .button:active {
   background: #0A6EA6;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.button_size_big {
+  font-size: 20px;
+  line-height: 26px;
+  padding: 15px 22px;
+}
+
+.button_size_small {
+  font-size: 16px;
+  line-height: 21px;
+  padding: 5px 30px;
 }
 
 .button:active .button__svg path {

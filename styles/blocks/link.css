@@ -1,0 +1,18 @@
+.link {
+    text-decoration: underline;
+    color: #0078bb;
+  
+    transition: all 0.2s ease;
+  }
+  
+  .link:hover,
+  .link:focus {
+    text-decoration: none;
+    color: #62b9ea;
+  }
+  
+  .link:active {
+    text-decoration: none;
+    color: #0a6ea6;
+  }
+  
